@@ -1,6 +1,6 @@
 export class Article {
-  public title:    string;
-  public date:     Date;
-  public content:  string;
-  public kind:     string;
+  constructor(public title: string,
+              public date: Date,
+              public content: string,
+              public kind: string) { }
 }
